@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  if (window.location.href === "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/index.html") {
+  if (window.location.href === "https://lidiawiktorowicz.github.io/") {
     $(".przepisy").click(function() {
       $('html,body').animate({
           scrollTop: $(".block2").offset().top
@@ -31,23 +31,23 @@ $(document).ready(function() {
 
   } else {
     $(document).on('click', '.home', function() {
-      window.location.href = "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/index.html";
+      window.location.href = "https://lidiawiktorowicz.github.io/";
     });
 
     $(document).on('click', '.przepisy', function() {
-      window.location.href = "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/html/przepisy.html";
+      window.location.href = "https://lidiawiktorowicz.github.io/html/przepisy.html";
     });
 
     $(document).on('click', '.inspiracje', function() {
-      window.location.href = "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/html/inspiracje.html";
+      window.location.href = "https://lidiawiktorowicz.github.io/html/inspiracje.html";
     });
 
     $(document).on('click', '.porady', function() {
-      window.location.href = "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/html/porady.html";
+      window.location.href = "https://lidiawiktorowicz.github.io/html/porady.html";
     });
 
     $(document).on('click', '.galeria', function() {
-      window.location.href = "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/html/galeria.html";
+      window.location.href = "https://lidiawiktorowicz.github.io/html/galeria.html";
     });
   }
 
@@ -67,19 +67,19 @@ $(document).ready(function() {
   });
 
   $(document).on('click', '.b2_przepisy', function() {
-    window.location.href = "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/html/przepisy.html";
+    window.location.href = "https://lidiawiktorowicz.github.io/html/przepisy.html";
   });
 
   $(document).on('click', '.b3_inspiracje', function() {
-    window.location.href = "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/html/inspiracje.html";
+    window.location.href = "https://lidiawiktorowicz.github.io/html/inspiracje.html";
   });
 
   $(document).on('click', '.b4_porady', function() {
-    window.location.href = "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/html/porady.html";
+    window.location.href = "https://lidiawiktorowicz.github.io/html/porady.html";
   });
 
   $(document).on('click', '.b5_galeria', function() {
-    window.location.href = "file:///C:/Users/usreint/Documents/DOCS/PRACA/PROJEKT/html/galeria.html";
+    window.location.href = "https://lidiawiktorowicz.github.io/html/galeria.html";
   });
 
 
